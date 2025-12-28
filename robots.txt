@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://satyampandeyportfolio.web.app/sitemap.xml
