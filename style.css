@@ -1,12 +1,12 @@
 /* Name Logo Font family */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 
 /* Navigation Bar Font family */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); */
 /* Inroduction Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'); */
 /* Overall font family */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
 
 
 ::selection {
@@ -17,12 +17,6 @@
     transform: translateY(-5px);
     transition: all 0.4s ease-in-out;
 }
-.heading {
-    font-family: 'Quicksand', sans-serif;
-}
-
-
-
 /* base circle for all icons */
 .social_media {
   cursor: pointer !important;

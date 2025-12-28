@@ -33,20 +33,20 @@ function typeProfession() {
 document.addEventListener("DOMContentLoaded", typeProfession);
 
 
-(function () {
-    emailjs.init("tZeVyJa2znGXcU9Pf"); // Replace with your EmailJS Public Key
-})();
-
-document.getElementById("contactForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    emailjs.sendForm("service_oatgv32", "template_9yxhuko", this)
-        .then(() => {
-            console.log("✅ Message sent successfully!");
-            this.reset();
-        }, (error) => {
-            console.log("❌ Failed to send. Please try again.");
-            console.error(error);
+document.addEventListener("DOMContentLoaded", function () {
+    emailjs.init("tZeVyJa2znGXcU9Pf");
+    const form = document.getElementById("contactForm");
+    if (form) {
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            emailjs.sendForm("service_oatgv32", "template_9yxhuko", this)
+                .then(() => {
+                    console.log("✅ Message sent successfully!");
+                    this.reset();
+                }, (error) => {
+                    console.log("❌ Failed to send. Please try again.");
+                    console.error(error);
+                });
         });
+    }
 });
-
