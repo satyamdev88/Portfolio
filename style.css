@@ -170,9 +170,7 @@
 }
 
 
-@media (max-width:508px) {
-    
-
+@media (max-width:460px) {
     .contact_img{
         height:auto; 
         width: auto;
