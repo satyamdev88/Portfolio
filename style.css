@@ -169,18 +169,24 @@
     }
 }
 
+
+@media (max-width:508px) {
+    
+
+    .contact_img{
+        height:auto; 
+        width: auto;
+        max-width: 100%;
+
+    }
+}
+
 @media (max-width:380px) {
     .DownloadResume {
         font-size: 12px;
         padding: 0 10px;
     }
 
-
-    .contact_img{
-        height:10vh; 
-        width: 20vw;
-
-    }
     .mail-link {
         font-size: 12px;
     }
